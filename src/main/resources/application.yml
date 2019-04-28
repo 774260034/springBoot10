@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: 47.102.134.167
+    lettuce:
+      pool:
+        max-active: 8
+        max-wait: 1
+        max-idle: 20
+        min-idle: 10
